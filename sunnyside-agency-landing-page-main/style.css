@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,900&display=swap');
 
-header{
+.header{
     background-image: url('./design/images/desktop/image-header.jpg');
     width: 100vw;
     height: 100vh;
@@ -76,4 +76,62 @@ header{
 .seta{
     margin-top: 8%;
     
+}
+
+.quadrados{
+    height: 30vh;
+    width: 100vw;
+    
+}
+
+
+.image{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.texto{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    
+    
+}
+
+.conteudo{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.slogan-2{
+    font-family: 'Fraunces', serif;
+    color: #222d39;
+    font-size: 2rem;
+    margin-top: 17%;
+    width: 66%;
+}
+
+.paragrafo{
+    margin-top: 5%;
+    width: 78%;
+    color: #8e8d92;
+}
+
+.learn{
+    font-family: 'Fraunces', serif;
+    margin-top: 5%;
+    margin-bottom: 17%;
+    
+}
+
+.learn:hover{
+    text-decoration: underline;
+    text-decoration-color: #f2d512 ;
+    cursor: pointer;
 }
