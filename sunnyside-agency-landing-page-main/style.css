@@ -135,3 +135,38 @@
     text-decoration-color: #f2d512 ;
     cursor: pointer;
 }
+
+
+.foto-cereja{
+    background-size: cover;
+    background-image: url("./design/images/desktop/image-graphic-design.jpg");
+}
+.foto-laranja{
+    background-size: cover;
+    background-image: url("./design/images/desktop/image-photography.jpg");
+}
+
+.graphic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53%;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    color: #387368;
+}
+
+.graphic-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 24%;
+    width: 51%;
+    margin-bottom: 9%;
+    color: #225d51;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
