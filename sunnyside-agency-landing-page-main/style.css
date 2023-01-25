@@ -281,8 +281,9 @@
 
   .header {
     background-image: url("./design/images/mobile/image-header.jpg");
+    width: 100%;
+    background-size: cover;
     height: 66vh;
-    background-size: contain;
   }
 
 
@@ -306,7 +307,7 @@
   .slogan h1 {
     text-align: center;
     font-size: 2.8rem;
-    margin-top: 20%;
+    margin-top: 26%;
   }
 
   .seta {
