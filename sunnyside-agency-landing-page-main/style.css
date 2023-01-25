@@ -170,3 +170,114 @@
     font-size: 16px;
    
 }
+
+
+.clientes-titulo{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Fraunces', serif;
+    color: #abacad;
+    letter-spacing: 10px;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.cliente{
+    margin-top: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.imagem-emily{
+    width: 16%;
+    border-radius: 100%;
+}
+
+.cliente-texto{
+    margin-top: 10%;
+    text-align: center;
+    width: 71%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5b5c5e;
+}
+
+.assinatura{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome{
+    font-family: 'Fraunces', serif;
+    color: #242d36;
+    font-size: 17px;
+}
+
+.profissao{
+    margin-top: 7%;
+    font-size: 13px;
+    color: #bfbfbe;
+}
+.comida{
+    width: 100%;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #90d4c5;
+   
+}
+
+.sunnySide{
+    margin-top: 3%;
+    font-family: 'Fraunces', serif;
+    color: #2b7262;
+    font-size: 32px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.5%;
+    
+}
+
+.footer-link{
+    margin: 0 30px;
+    font-weight: 600;
+    color: #4e9283;
+}
+
+.footer-link:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.social-media{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.social-media svg{
+    margin: 0 15px;
+}
+
+.social-media svg:hover path {
+    fill: white;
+    cursor: pointer;
+}
