@@ -1,5 +1,5 @@
 let link = document.querySelectorAll('.link')
-
+let item = document.querySelectorAll('.item-')
 
 
 
@@ -17,3 +17,20 @@ function mudaCor(x){
   
 
 }
+
+
+function mudaCor2(x){
+    for(let i  = 0; i < item.length; i++){
+        item[i].style = "text-decoration: none"
+    }    
+    
+   x.style= "text-decoration: underline"
+   
+  
+
+}
+
+function mostraMenu(){
+    document.querySelector('.menu-mob').classList.toggle('active')
+}
+
