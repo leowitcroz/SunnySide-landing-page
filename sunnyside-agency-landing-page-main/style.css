@@ -435,4 +435,8 @@
   .social-media{
     margin-bottom: 8%;
   }
+
+  .social-media svg{
+    margin: 0px 12px;
+  }
 }
